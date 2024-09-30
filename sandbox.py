@@ -1,2 +1,2 @@
-def if(num):
-    return num
+found = [ ] in "Welcome to CS1301!"
+print(found)
