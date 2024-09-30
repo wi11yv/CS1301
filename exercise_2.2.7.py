@@ -11,9 +11,16 @@
 
 from datetime import date
 new_integer = 8
+integer_as_string = str(new_integer)
+
 new_float = 8.2
+float_as_string = str(new_float)
+
 new_date = date.today()
+date_as_string = str(new_date)
+
 new_boolean = False
+boolean_as_string = str(new_boolean)
 
 #The lines of code below will test your code.
 #If it works, they will print the four string
