@@ -1,8 +1,2 @@
-my_var_1 = 7
-my_var_2 = 4
-my_var_1 //= my_var_2
-my_var_2 **= my_var_1
-my_var_2 %= my_var_1
-my_var_1 *= my_var_2
+print(((not True or not False) or (not True and not False)) and ((True and False) or (True or False)))
 
-print(my_var_2)
