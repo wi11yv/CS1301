@@ -1,8 +1,8 @@
-my_var_1 = 5
-my_var_2 = 2
-my_var_1 **= my_var_2
-my_var_2 *= my_var_1
-my_var_1 %= my_var_2
-my_var_2 += my_var_1
-
-print(my_var_2)
+fave_food = "french fries"
+if fave_food == "pizza":
+    print("Domino's")
+else:
+    if fave_food == "chicken wings":
+        print("Wing Zone")
+    else:
+        print("Time to eat!")
