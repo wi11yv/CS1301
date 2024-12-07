@@ -1,8 +1,3 @@
-fave_food = "french fries"
-if fave_food == "pizza":
-    print("Domino's")
-else:
-    if fave_food == "chicken wings":
-        print("Wing Zone")
-    else:
-        print("Time to eat!")
+some_list = ["I", "like", "shorts", "they're", "comfy", "and", "easy", "to", "wear"]
+for i in range(0, len(some_list)):
+    print(i, some_list[i])
