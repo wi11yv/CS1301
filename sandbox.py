@@ -1,3 +1,2 @@
-some_list = ["I", "like", "shorts", "they're", "comfy", "and", "easy", "to", "wear"]
-for i in range(0, len(some_list)):
-    print(i, some_list[i])
+for aString in range(0):
+    print(aString)
