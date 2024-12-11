@@ -11,14 +11,14 @@
 
 
 #Write your function here!
-def hideandseek():
+def hide_and_seek():
     for number in range(1, 11):
         print(number)
     print("Ready or not, here I come!")
 
 
 #Call your function here!
-hideandseek()
+hide_and_seek()
 
 
 
