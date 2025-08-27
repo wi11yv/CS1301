@@ -1,0 +1,10 @@
+# Write three loops that all print the letters in the string "CS1301", one using each type (for with range, for-each, and while).
+
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+# Positional
+print(greet("Will"))
+
+# Keyword
+print(greet(name="Will", greeting="Hi"))
