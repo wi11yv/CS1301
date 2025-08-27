@@ -4,7 +4,7 @@ def greet(name, greeting="Hello"):
     return f"{greeting}, {name}!"
 
 # Positional
-print(greet("Will"))
+# print(greet("Will"))
 
 # Keyword
-print(greet(name="Will", greeting="Hi"))
+print(greet(name="willyv", greeting="Hi"))
