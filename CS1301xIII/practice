@@ -1,11 +1,15 @@
-#Add one to anInteger
-def addOne(anInteger):  
-    anInteger = anInteger + 1
-    print("anInteger: ", anInteger)
+import string
+#Return True if inString contains all digits
+def isdigit(inString):
+    #Check each character one-by-one
+    for character in inString:
+        #Check if the character is a digit
+        if not character in string.digits:
+            #Return false if not
+            return False
+    #Return true if we reached here
+    return True
 
-#Create myInteger with the value 5
-myInteger = 5   
-print("myInteger before addOne:", myInteger)
-#Call addOne on myInteger
-addOne(myInteger)   
-print("myInteger after addOne:", myInteger)
+myString = "52672"
+print(isdigit(myString))
+print(myString.isdigit())
