@@ -1,25 +1,11 @@
-mystery_string = "zizazzle"
+#Add one to anInteger 
+def addOne(anInteger):  
+    anInteger = anInteger + 1
+    print("anInteger:", anInteger)
 
-#There are a few things we need to notice here:
-#
-# - First, we need to check the strings in the right order:
-#   if we check 'z' before checking 'zzz', we're guaranteed
-#   to find 'z' even if 'zzz' is there.
-# - Second, we need to use elif: once we've found something,
-#   we want to stop. Otherwise if "zzz" was in the string,
-#   it would print all three messages.
-# - Third, we could take care of the case where there is no
-#   'z' with an else, or with another elif if we use the
-#   condition 'not "z" in mystery_string'.
-#
-#So, here's how we'd do it:
-
-if "zzz" in mystery_string:
-    print("I'm sleepy...")
-elif "zz" in mystery_string:
-    print("I love ZZ Top!")
-elif "z" in mystery_string:
-    print("One is the loneliest number.")
-else:
-    print("Who needs z anyway?")
-
+#Create myInteger with the value 5
+myInteger = 5   
+print("myInteger before addOne:", myInteger)
+#Call addOne on myInteger
+addOne(myInteger)   
+print("myInteger after addOne:", myInteger)
